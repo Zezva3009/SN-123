@@ -1,0 +1,96 @@
+*{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgba(179, 229, 233, 0.819);
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .team{
+        color: rgb(71, 107, 215);
+        position: relative;
+        top: 5px;
+    }
+    .container{
+        display: flex;
+        width: 1200px;
+        margin: auto;
+        max-width: 100%;
+        justify-content: center;
+        
+    }
+    .box1{
+        width: 200px;
+        height: 210px;
+        background-color: white;
+        border-radius: 8px;
+        margin-top: 40px;
+        margin-inline: 20px;   
+
+    }
+    .blueline{
+        width: 100px;
+        height: 3px;
+        background-color: rgb(96, 96, 195);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin: auto;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;   
+    }
+    .prof{
+        margin: auto;
+        text-align: center;
+        padding-top: 13%;
+    }
+    h2{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 13px;
+        font-weight: bold;
+        color: rgb(142, 142, 142);
+    }
+    .assign{
+        position: relative;
+        bottom: -20px;
+        left: 25px;
+        font-size: 13px;
+        font-weight: bold;
+        color:  rgb(142, 142, 142);
+    }
+    .view{
+        position: relative;
+        bottom: -20px;
+        right: -75px;
+        font-size: 13px;
+        font-weight: bold;
+        color:  rgb(142, 142, 142);
+    }
+    .bi{
+        position: relative;
+        bottom: -2px;
+    }
+    .done{
+        color: rgb(50, 174, 41);
+        position: relative;
+        top: 15px;
+        left: 15px;
+    }
+    .heart{
+        color: rgb(167, 164, 164);
+        position: relative;
+        top: 15px;
+        right: -145px;
+    }
+    
+    

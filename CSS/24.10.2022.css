@@ -1,0 +1,34 @@
+body{
+    height: 1800px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.466);
+    /*background: linear-gradient(90deg, red 0, green 25%, black);*/
+    background-image: url(../img/Masteron.ge_logo.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+.heading{
+    color: rgb(252, 247, 247);
+    text-align: center;
+    /* border-width: 4px;
+    border-color: blue;
+    border-style: solid; */
+    border-left: 4px solid red;
+    border-bottom: 4px dashed rgb(0, 255, 38);
+
+}
+.corner{
+    /* border-radius: 20px; */
+    /* border-bottom-left-radius: 34px; */
+    border-radius: 20px 40px 70px 120px;
+    width: 500px;
+    height: 400px;
+    outline: 2px solid white;
+    outline-offset: -10px;
+}

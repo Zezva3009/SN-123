@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  height: 400px;
+  background-color: rgb(244, 11, 11);
+}
+section .container {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+section .container .row {
+  display: flex;
+}
+section .container .row:hover {
+  background-color: green;
+}/*# sourceMappingURL=28.11.2022.css.map */

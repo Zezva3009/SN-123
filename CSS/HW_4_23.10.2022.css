@@ -1,0 +1,7 @@
+div{
+    width: 400px;
+    background-color: rgb(206, 206, 206)
+}
+.nowrap{
+    white-space: nowrap;
+}

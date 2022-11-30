@@ -1,0 +1,35 @@
+/*
+p{
+    color: red !important;
+    font-size: 30px;
+}
+.textcenter{
+    text-align: center;
+    color: green;
+}
+ #headline{
+    font-weight: normal;
+ }
+ */
+
+
+ h3{
+    color: blue;
+    font-size: 25px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: capitalize; 
+    text-shadow: 10px black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 15px;
+ }
+ div{
+    width: 350px;
+    background-color: blue;
+    overflow: hidden;
+    }
+ .wrapper{_
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,19 @@
+h1{
+    color: green;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+.one{
+    text-decoration: underline wavy green;
+}
+.two{
+    text-decoration: line-through red;
+}
+.three{
+    text-decoration: overline blue;
+}

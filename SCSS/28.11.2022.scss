@@ -1,0 +1,31 @@
+$mycolor: rgb(244, 11, 11);
+
+@mixin center($size:15px){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $size;
+}
+
+section{
+    @include center(30px);
+    height: 400px;
+    background-color: $mycolor;
+
+    .container{
+        background:{
+            // image: url();
+            size: cover;
+            position: center;
+            // repeat:no-repeat;
+        }
+        text-align: center;
+        color: white;
+        .row{
+            display: flex;
+            &:hover{
+                background-color: green;
+            }
+        }
+    }
+}

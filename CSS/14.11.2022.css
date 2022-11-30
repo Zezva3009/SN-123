@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin: 0;
+}
+/* .content > p{
+    background-color: black;
+    color: white;
+}
+
+/* .content + h2{
+    background-color: blueviolet;
+} */
+
+/* .content ~ h2{
+    background-color: blueviolet;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    margin: auto;
+} */
+
+/* .box:active{
+    background-color: brown;
+}
+.box h1{
+    display: none;
+}
+.box:hover h1{
+    display: block;
+}
+input{
+    padding: 15px;
+    border: 1px solid rgb(225, 86, 65);
+    transition: all .6s linear;
+    width: 20px;
+    outline: 0;
+} */
+/* input:focus{
+    border: 1px solid rgb(13, 40, 214);
+    width: 350px;
+}
+input + p{
+    display: none;
+}
+input:focus + p{
+display: block;
+}
+a:visited{
+    color:rgb(255, 98, 0);
+} */
+
+/* .content p:first-child{
+margin-left: 50px;
+}
+
+.content p:last-child{
+    margin-left: 50px;
+    }
+.content p:nth-child(3){
+    padding-left: 40px;
+}
+.content p:nth-child(odd){
+    background-color: aquamarine;
+}
+.content p:nth-child(even){
+    background-color: rgb(163, 127, 255);
+} */
+
+/* div{
+    width: 400px;
+    height: 250px;
+    background-color: grey;
+}
+input{
+    position: relative;
+    top: 110px;
+    left: 115px;
+    height: 30px;
+}
+div:active{
+    background-color: yellow;
+}
+p{
+    color: rgb(139, 135, 135);
+    position: relative;
+    top: 70px;
+    left: 130px;
+} */
+.google{
+    width: 400px;
+    margin: auto;
+    background-color: rgb(109, 113, 113);
+    border-radius: 7px;
+    padding: 25px;
+    position: relative;
+
+}
+.google input{
+  width: 100%;
+  padding: 18px;
+  border: 1px solid #ccc;
+  outline: 0;
+  background-color: rgb(228, 246, 246);
+  border-radius: 7px;
+}
+
+
+.google input:valid{
+  border: 1px solid green;
+}
+
+.google button{
+    border: 0;
+    padding: 12px; 
+    background-color: rgb(38, 18, 224);
+    border-radius: 3px;
+  width: 100%;
+  display: block;
+  margin-top: 25px;
+}
+
+.google span{
+    position: absolute;
+    left: 42px;
+    top: 43px;
+    padding: 0 7px;
+    transition: all .2s ease-in-out;
+    background-color: azure;
+    pointer-events: none;
+}
+.google input:focus + span , .google input:valid + span {
+    font-size: 12px;
+    top: 15px;
+}

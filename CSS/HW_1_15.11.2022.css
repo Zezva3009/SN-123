@@ -1,0 +1,105 @@
+*{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    box-sizing: border-box;
+}
+body{
+    width: max-content;
+    height: 800px;
+    margin: 0;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(23, 25, 58);
+    margin: auto;
+    padding-top: 50px;
+}
+.subcont{
+    width: max-content;
+    width: 350px;
+    height:400px;
+    margin: auto;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+        
+}
+
+input{
+    background: transparent;
+    border outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.name{
+    margin: auto;
+    position: relative;
+}
+.mail{
+    margin: auto;
+    position: relative;
+    }
+.phone{
+    margin-top: 15px;
+    margin: auto;
+    position: relative;
+}
+p{
+    color: rgb(199, 195, 195);
+    font-size: 14px;
+}
+.fname{
+    position: absolute;
+    top: 9.5%;
+    left: 16.2%;
+}
+.email{
+    position: absolute;
+    top: 20%;
+    left: 17.2%;
+}
+.phn{
+    position: absolute;
+    top: 30%;
+    left: 15.5%;
+}
+.submit{
+    width: 140px;
+    height: 40px;
+    margin: auto;
+    border: 2px solid rgb(232, 229, 229);
+    color: white;
+    padding-left: 37px;
+    padding-top: 10px;
+    position: relative;
+    font-weight: bold;   
+}
+.name:focus{
+    width: 80%;
+    transition: all 2s ease-in-out;
+}
+.mail:focus{
+    width: 80%;
+    transition: all 2s ease-in-out;
+}
+.phone:focus{
+    width: 80%;
+    transition: all 2s ease-in-out;
+}
+.name:focus + .fname{
+    margin-top: -1.3%;
+}
+.mail:focus + .email{
+    margin-top: -1%;
+}
+.phone:focus + .phn{
+    margin-top: -1%;
+}
+.submit:hover{
+    background-color: white;
+    color: rgb(23, 25, 58);
+}
